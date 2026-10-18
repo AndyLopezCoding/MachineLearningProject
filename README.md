@@ -12,7 +12,7 @@ This project compares machine-learning models for estimating household appliance
 
 - `MachineLearningProject.ipynb`: project notebook.
 - `energydata_complete.csv`: dataset used by the notebook.
-- `Milestone-3_Technical_Memo.pdf`: updated project proposal.
+- `Milestone_3_Technical_Memo.pdf`: updated project proposal.
 
 ## How to run
 
