@@ -30,7 +30,19 @@
     "hour",
     "day_of_week"
   ],
-  "split_scope": "earliest 70 percent training block only",
+  "cv_scope": "earliest 70 percent training block only",
+  "validation_scope": "next 15 percent block; no test evaluation",
+  "split_rows": {
+    "train": 13814,
+    "validation": 2960,
+    "test": 2961
+  },
+  "high_consumption_threshold_wh": 340.0,
+  "residual_definition": "actual minus predicted",
+  "high_consumption_signed_error_definition": "predicted minus actual",
+  "python_version": "3.11.9",
+  "pandas_version": "3.0.6",
+  "numpy_version": "2.4.6",
   "n_splits": 5,
   "gap": 0,
   "test_size": null,
