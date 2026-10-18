@@ -1,0 +1,147 @@
+{
+  "dataset_sha256": "2820bf712ad0275cb18b85a05250926100d8e65ebb9f4d2d016ca91ea152a25d",
+  "sklearn_version": "1.9.1",
+  "feature_columns": [
+    "lights_energy_wh",
+    "temp_kitchen_c",
+    "humidity_kitchen_pct",
+    "temp_living_room_c",
+    "humidity_living_room_pct",
+    "temp_laundry_c",
+    "humidity_laundry_pct",
+    "temp_office_c",
+    "humidity_office_pct",
+    "temp_bathroom_c",
+    "humidity_bathroom_pct",
+    "temp_outside_north_c",
+    "humidity_outside_north_pct",
+    "temp_ironing_room_c",
+    "humidity_ironing_room_pct",
+    "temp_teen_room_c",
+    "humidity_teen_room_pct",
+    "temp_parents_room_c",
+    "humidity_parents_room_pct",
+    "temp_weather_station_c",
+    "pressure_weather_station_mmhg",
+    "humidity_weather_station_pct",
+    "windspeed_weather_station_ms",
+    "visibility_weather_station_km",
+    "dewpoint_weather_station_c",
+    "hour",
+    "day_of_week"
+  ],
+  "split_scope": "earliest 70 percent training block only",
+  "n_splits": 5,
+  "gap": 0,
+  "test_size": null,
+  "max_train_size": null,
+  "model_parameters": {
+    "Linear Regression": {
+      "memory": null,
+      "steps": [
+        [
+          "scale",
+          "StandardScaler()"
+        ],
+        [
+          "model",
+          "LinearRegression()"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "scale": "StandardScaler()",
+      "model": "LinearRegression()",
+      "scale__copy": true,
+      "scale__with_mean": true,
+      "scale__with_std": true,
+      "model__copy_X": true,
+      "model__fit_intercept": true,
+      "model__n_jobs": null,
+      "model__positive": false,
+      "model__tol": 1e-06
+    },
+    "kNN": {
+      "memory": null,
+      "steps": [
+        [
+          "scale",
+          "StandardScaler()"
+        ],
+        [
+          "model",
+          "KNeighborsRegressor()"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "scale": "StandardScaler()",
+      "model": "KNeighborsRegressor()",
+      "scale__copy": true,
+      "scale__with_mean": true,
+      "scale__with_std": true,
+      "model__algorithm": "auto",
+      "model__leaf_size": 30,
+      "model__metric": "minkowski",
+      "model__metric_params": null,
+      "model__n_jobs": null,
+      "model__n_neighbors": 5,
+      "model__p": 2,
+      "model__weights": "uniform"
+    },
+    "Decision Tree": {
+      "memory": null,
+      "steps": [
+        [
+          "model",
+          "DecisionTreeRegressor(min_samples_leaf=5, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "model": "DecisionTreeRegressor(min_samples_leaf=5, random_state=42)",
+      "model__ccp_alpha": 0.0,
+      "model__criterion": "squared_error",
+      "model__max_depth": null,
+      "model__max_features": null,
+      "model__max_leaf_nodes": null,
+      "model__min_impurity_decrease": 0.0,
+      "model__min_samples_leaf": 5,
+      "model__min_samples_split": 2,
+      "model__min_weight_fraction_leaf": 0.0,
+      "model__monotonic_cst": null,
+      "model__random_state": 42,
+      "model__splitter": "best"
+    },
+    "Random Forest": {
+      "memory": null,
+      "steps": [
+        [
+          "model",
+          "RandomForestRegressor(min_samples_leaf=5, n_jobs=-1, random_state=42)"
+        ]
+      ],
+      "transform_input": null,
+      "verbose": false,
+      "model": "RandomForestRegressor(min_samples_leaf=5, n_jobs=-1, random_state=42)",
+      "model__bootstrap": true,
+      "model__ccp_alpha": 0.0,
+      "model__criterion": "squared_error",
+      "model__max_depth": null,
+      "model__max_features": 1.0,
+      "model__max_leaf_nodes": null,
+      "model__max_samples": null,
+      "model__min_impurity_decrease": 0.0,
+      "model__min_samples_leaf": 5,
+      "model__min_samples_split": 2,
+      "model__min_weight_fraction_leaf": 0.0,
+      "model__monotonic_cst": null,
+      "model__n_estimators": 100,
+      "model__n_jobs": -1,
+      "model__oob_score": false,
+      "model__random_state": 42,
+      "model__verbose": 0,
+      "model__warm_start": false
+    }
+  }
+}
