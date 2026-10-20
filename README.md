@@ -4,7 +4,7 @@ CSCI 3052U: Machine Learning I
 
 Andy Lopez, Hasan Nawaz, Eliseo Marinez
 
-This project compares machine-learning models for estimating household appliance energy use in watt-hours (Wh). The Milestone 2 notebook covers the dataset, initial exploratory analysis, and modelling plan.
+This project compares machine-learning models for estimating household appliance energy use in watt-hours (Wh). The Milestone 3 notebook covers the dataset, initial exploratory analysis, and modelling plan.
 
 [GitHub repository](https://github.com/AndyLopezCoding/MachineLearningProject)
 
