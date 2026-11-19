@@ -1,0 +1,5 @@
+Model,Selected configuration,Training accuracy (%),Test accuracy (%)
+kNN,k=200,29.474186240610468,13.54272205336035
+Random Forest,underfit candidate,33.36711577441278,41.776426882809865
+Linear / Ridge / Polynomial,quadratic Ridge alpha=10000,24.061046858232977,23.843296183721716
+Decision Tree,underfit candidate,33.36711577441278,41.776426882809865
