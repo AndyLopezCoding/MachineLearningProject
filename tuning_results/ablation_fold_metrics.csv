@@ -1,0 +1,161 @@
+family,comparison,fold,features,CV_MAE_Wh
+kNN,All inputs,1,27,56.329192006950485
+kNN,All inputs,2,27,64.7618158123371
+kNN,All inputs,3,27,58.84489574283233
+kNN,All inputs,4,27,53.17374022589053
+kNN,All inputs,5,27,55.76170721112077
+kNN,Without room temperatures,1,19,58.04847958297133
+kNN,Without room temperatures,2,19,57.6755212858384
+kNN,Without room temperatures,3,19,59.66420503909644
+kNN,Without room temperatures,4,19,50.78134231103388
+kNN,Without room temperatures,5,19,59.92862728062555
+kNN,Without lighting,1,26,61.16928757602084
+kNN,Without lighting,2,26,67.9499348392702
+kNN,Without lighting,3,26,60.613575152041705
+kNN,Without lighting,4,26,56.23095134665508
+kNN,Without lighting,5,26,55.50464813205908
+kNN,Without time,1,25,56.52791051259774
+kNN,Without time,2,25,64.68814074717636
+kNN,Without time,3,25,59.40245438748914
+kNN,Without time,4,25,54.84691572545612
+kNN,Without time,5,25,54.84246307558645
+kNN,Without room humidity,1,19,62.0644874022589
+kNN,Without room humidity,2,19,57.087749782797566
+kNN,Without room humidity,3,19,56.61568201563857
+kNN,Without room humidity,4,19,51.99713292788879
+kNN,Without room humidity,5,19,55.43716333622937
+kNN,Without weather-station inputs,1,21,56.70314943527367
+kNN,Without weather-station inputs,2,21,67.18025629887055
+kNN,Without weather-station inputs,3,21,57.789096437880104
+kNN,Without weather-station inputs,4,21,52.14700260642919
+kNN,Without weather-station inputs,5,21,56.31170721112076
+kNN,Without T6 and T_out,1,25,56.03273240660295
+kNN,Without T6 and T_out,2,25,63.19435273675066
+kNN,Without T6 and T_out,3,25,57.179843614248476
+kNN,Without T6 and T_out,4,25,50.36963509991312
+kNN,Without T6 and T_out,5,25,54.99029105125978
+kNN,Time and lighting only,1,3,62.280821025195486
+kNN,Time and lighting only,2,3,54.9608384013901
+kNN,Time and lighting only,3,3,56.48581668114682
+kNN,Time and lighting only,4,3,49.886142484795826
+kNN,Time and lighting only,5,3,51.563184187662905
+Random Forest,All inputs,1,27,66.41303121497076
+Random Forest,All inputs,2,27,60.66256025936988
+Random Forest,All inputs,3,27,58.3014131836342
+Random Forest,All inputs,4,27,51.099880692422644
+Random Forest,All inputs,5,27,56.7230845261515
+Random Forest,Without room temperatures,1,19,66.41303121497076
+Random Forest,Without room temperatures,2,19,60.66256025936988
+Random Forest,Without room temperatures,3,19,58.3014131836342
+Random Forest,Without room temperatures,4,19,51.09988069242264
+Random Forest,Without room temperatures,5,19,56.7230845261515
+Random Forest,Without lighting,1,26,61.04587972244259
+Random Forest,Without lighting,2,26,52.92057935348535
+Random Forest,Without lighting,3,26,55.91696067730174
+Random Forest,Without lighting,4,26,51.099880692422644
+Random Forest,Without lighting,5,26,56.72308452615149
+Random Forest,Without time,1,25,66.41303121497077
+Random Forest,Without time,2,25,60.66256025936988
+Random Forest,Without time,3,25,61.80601258293963
+Random Forest,Without time,4,25,53.255000823180076
+Random Forest,Without time,5,25,55.70410051515154
+Random Forest,Without room humidity,1,19,66.41303121497077
+Random Forest,Without room humidity,2,19,60.66256025936988
+Random Forest,Without room humidity,3,19,58.3014131836342
+Random Forest,Without room humidity,4,19,51.099880692422644
+Random Forest,Without room humidity,5,19,56.723084526151496
+Random Forest,Without weather-station inputs,1,21,66.41303121497076
+Random Forest,Without weather-station inputs,2,21,60.66256025936988
+Random Forest,Without weather-station inputs,3,21,58.3014131836342
+Random Forest,Without weather-station inputs,4,21,51.099880692422644
+Random Forest,Without weather-station inputs,5,21,56.72308452615149
+Random Forest,Without T6 and T_out,1,25,66.41303121497076
+Random Forest,Without T6 and T_out,2,25,60.66256025936988
+Random Forest,Without T6 and T_out,3,25,58.3014131836342
+Random Forest,Without T6 and T_out,4,25,51.09988069242264
+Random Forest,Without T6 and T_out,5,25,56.7230845261515
+Random Forest,Time and lighting only,1,3,66.41303121497077
+Random Forest,Time and lighting only,2,3,60.66256025936988
+Random Forest,Time and lighting only,3,3,58.3014131836342
+Random Forest,Time and lighting only,4,3,51.099880692422644
+Random Forest,Time and lighting only,5,3,56.7230845261515
+Linear / Ridge / Polynomial,All inputs,1,27,68.65905948282519
+Linear / Ridge / Polynomial,All inputs,2,27,66.14565909722518
+Linear / Ridge / Polynomial,All inputs,3,27,53.36748656277435
+Linear / Ridge / Polynomial,All inputs,4,27,49.063310670341124
+Linear / Ridge / Polynomial,All inputs,5,27,56.88916958652451
+Linear / Ridge / Polynomial,Without room temperatures,1,19,62.46218014923663
+Linear / Ridge / Polynomial,Without room temperatures,2,19,65.48009181927641
+Linear / Ridge / Polynomial,Without room temperatures,3,19,54.63278638258422
+Linear / Ridge / Polynomial,Without room temperatures,4,19,47.90264385869755
+Linear / Ridge / Polynomial,Without room temperatures,5,19,54.873657527855386
+Linear / Ridge / Polynomial,Without lighting,1,26,74.20816935209878
+Linear / Ridge / Polynomial,Without lighting,2,26,61.25462218862245
+Linear / Ridge / Polynomial,Without lighting,3,26,51.93267225259249
+Linear / Ridge / Polynomial,Without lighting,4,26,48.635162344034946
+Linear / Ridge / Polynomial,Without lighting,5,26,58.93837102861358
+Linear / Ridge / Polynomial,Without time,1,25,68.91166301330965
+Linear / Ridge / Polynomial,Without time,2,25,67.7147257242754
+Linear / Ridge / Polynomial,Without time,3,25,54.34300480663077
+Linear / Ridge / Polynomial,Without time,4,25,49.13075593583552
+Linear / Ridge / Polynomial,Without time,5,25,57.35173855115984
+Linear / Ridge / Polynomial,Without room humidity,1,19,66.67559547109731
+Linear / Ridge / Polynomial,Without room humidity,2,19,63.08827520510835
+Linear / Ridge / Polynomial,Without room humidity,3,19,53.33420194134592
+Linear / Ridge / Polynomial,Without room humidity,4,19,49.414171019522286
+Linear / Ridge / Polynomial,Without room humidity,5,19,52.60628948639407
+Linear / Ridge / Polynomial,Without weather-station inputs,1,21,66.19397275992175
+Linear / Ridge / Polynomial,Without weather-station inputs,2,21,66.53746665153476
+Linear / Ridge / Polynomial,Without weather-station inputs,3,21,52.718696879142975
+Linear / Ridge / Polynomial,Without weather-station inputs,4,21,48.92928962949887
+Linear / Ridge / Polynomial,Without weather-station inputs,5,21,58.11087249764428
+Linear / Ridge / Polynomial,Without T6 and T_out,1,25,68.09146497550879
+Linear / Ridge / Polynomial,Without T6 and T_out,2,25,65.82519721305778
+Linear / Ridge / Polynomial,Without T6 and T_out,3,25,53.22323070025532
+Linear / Ridge / Polynomial,Without T6 and T_out,4,25,49.03618390838245
+Linear / Ridge / Polynomial,Without T6 and T_out,5,25,57.913444868184406
+Linear / Ridge / Polynomial,Time and lighting only,1,3,64.38718145609171
+Linear / Ridge / Polynomial,Time and lighting only,2,3,57.39978456630749
+Linear / Ridge / Polynomial,Time and lighting only,3,3,59.26015575606187
+Linear / Ridge / Polynomial,Time and lighting only,4,3,51.17622218140974
+Linear / Ridge / Polynomial,Time and lighting only,5,3,54.542081689635914
+Decision Tree,All inputs,1,27,66.27289344641552
+Decision Tree,All inputs,2,27,60.54365972095141
+Decision Tree,All inputs,3,27,61.73306116433262
+Decision Tree,All inputs,4,27,51.13543404365748
+Decision Tree,All inputs,5,27,56.747583915484164
+Decision Tree,Without room temperatures,1,19,66.27289344641552
+Decision Tree,Without room temperatures,2,19,60.54365972095141
+Decision Tree,Without room temperatures,3,19,61.73306116433262
+Decision Tree,Without room temperatures,4,19,51.13543404365748
+Decision Tree,Without room temperatures,5,19,56.747583915484164
+Decision Tree,Without lighting,1,26,61.00805580703176
+Decision Tree,Without lighting,2,26,52.750494354417064
+Decision Tree,Without lighting,3,26,55.82033686490147
+Decision Tree,Without lighting,4,26,51.13543404365748
+Decision Tree,Without lighting,5,26,56.747583915484164
+Decision Tree,Without time,1,25,66.27289344641552
+Decision Tree,Without time,2,25,60.54365972095141
+Decision Tree,Without time,3,25,61.73306116433262
+Decision Tree,Without time,4,25,53.26901850920874
+Decision Tree,Without time,5,25,55.71944767874943
+Decision Tree,Without room humidity,1,19,66.27289344641552
+Decision Tree,Without room humidity,2,19,60.54365972095141
+Decision Tree,Without room humidity,3,19,61.73306116433262
+Decision Tree,Without room humidity,4,19,51.13543404365748
+Decision Tree,Without room humidity,5,19,56.747583915484164
+Decision Tree,Without weather-station inputs,1,21,66.27289344641552
+Decision Tree,Without weather-station inputs,2,21,60.54365972095141
+Decision Tree,Without weather-station inputs,3,21,61.73306116433262
+Decision Tree,Without weather-station inputs,4,21,51.13543404365748
+Decision Tree,Without weather-station inputs,5,21,56.747583915484164
+Decision Tree,Without T6 and T_out,1,25,66.27289344641552
+Decision Tree,Without T6 and T_out,2,25,60.54365972095141
+Decision Tree,Without T6 and T_out,3,25,61.73306116433262
+Decision Tree,Without T6 and T_out,4,25,51.13543404365748
+Decision Tree,Without T6 and T_out,5,25,56.747583915484164
+Decision Tree,Time and lighting only,1,3,66.27289344641552
+Decision Tree,Time and lighting only,2,3,60.54365972095141
+Decision Tree,Time and lighting only,3,3,61.73306116433262
+Decision Tree,Time and lighting only,4,3,51.13543404365748
+Decision Tree,Time and lighting only,5,3,56.747583915484164
