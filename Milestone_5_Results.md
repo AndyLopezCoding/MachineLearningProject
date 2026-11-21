@@ -56,6 +56,13 @@ To see which inputs mattered, we removed groups of features and trained the mode
 
 Taking lighting out helped the decision tree and random forest in three folds and made no difference in the other two. The decision tree’s average error dropped by 3.79 Wh, the biggest change in the ablation. For kNN the error went up in four of the five folds when we removed lighting. We also tried kNN with just hour, day of week, and lighting, and that brought its average CV MAE down from 57.77 Wh to 55.04 Wh. These were all cross-validation results using the training data. [Ablation summary](tuning_results/ablation_summary.csv) · [Ablation fold metrics](tuning_results/ablation_fold_metrics.csv)
 
+## Residual analysis
+From the residual plots we made, the results obtained show that the models end up producing a wide range of errors across the test observations(Has large amount of underprediction at high energy values). We mostly got positive points because the actual test readings are often higher up than the predicted values(especially for the largest observations). The plots spread by quite a fair margin around zero versus having a more consistently accurate or an unbiased pattern.
+
+This finding supports our previous peak-load results, that the overall MAE doesn't really capture how severely the models end up missing uncommon high-consumption periods. With this residual analysis concludes that the average performance hides systematic underprediction in the higher consumption range.
+
+
+
 ## Conclusions and limitations
 
 Our main takeaway is that the median was hard to beat on overall test MAE, but the peak results show how much that score can hide. Even kNN, which did best during peaks, missed them by a lot. We also saw that a feature like lighting can help one model and hurt another.
